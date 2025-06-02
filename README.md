@@ -5,12 +5,12 @@
 <h2>Project Overview</h2>
 This study presents a practical approach to ball bearing fault diagnosis using the HUST (Huazhong University of Science and Technology) bearing dataset, which contains vibration signal data from various bearing health conditions. The objective is to accurately classify different types of bearing faults — such as inner race faults, outer race faults, and ball defects — as well as distinguish them from normal operational conditions.
 
+
 A Decision Tree algorithm is employed as the core machine learning model due to its interpretability and efficiency in handling classification problems with labeled data. Prior to model training, signal preprocessing and feature extraction are conducted using statistical time-domain features such as RMS, standard deviation, kurtosis, and skewness. These features are used as input variables for the classifier.
 
 The Decision Tree model is trained and tested using a portion of the dataset, with performance evaluated through accuracy, confusion matrix, and classification report metrics. The results demonstrate the model’s capability in distinguishing bearing faults with satisfactory accuracy, making it a practical tool for predictive maintenance in rotating machinery.
 
-This approach provides a low-complexity yet effective diagnostic framework that can be integrated into real-time monitoring systems, especially in industrial environments where interpretability and fast decision-making are crucial.
-
+This approach provides a low-complexity yet effectie diagnostic framework that can be integrated into real-time monitoring systems, especially in industrial environments where interpretability and fast decision-making are crucial.
 <h2>Key Features</h2>
 
 <b>✅ Real-Time Condition Monitoring – Capable of identifying various types of bearing faults using vibration signals.</b>
@@ -35,7 +35,7 @@ This approach provides a low-complexity yet effective diagnostic framework that 
 <b>5️⃣ Model Evaluation – Performance assessed using accuracy, confusion matrix, precision, recall, and F1-score.</b>
 
 <h2>Results & Impact</h2>
-<b>🚀 Achieved average classification accuracy of 98.12%, validating the effectiveness of Decision Tree for bearing fault diagnosis.</b>
+<b>🚀 Achieved average classification accuracy of 96.6%, validating the effectiveness of Decision Tree for bearing fault diagnosis.</b>
 
 <b>🚀 Transparent decision rules allow easier implementation and trust in industrial diagnostic systems.</b>
 
@@ -53,6 +53,9 @@ Scatter Plot of Decision Tree Model: <br/>
 <br />
 Confusion Matrix Using Decision Tree Model:  <br/>
 <img src="https://i.imgur.com/lRcz0vG.png" height="80%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+Summary Decision Tree Model:  <br/>
+<img src="https://imgur.com/8AjrgWG.png" height="80%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 
 
